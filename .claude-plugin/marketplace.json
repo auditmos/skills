@@ -1,0 +1,35 @@
+{
+    "name": "auditmos-agent-skills",
+    "owner": {
+      "name": "Tomasz Kowalczyk",
+      "email": "tom@auditmos.com"
+    },
+    "metadata": {
+      "description": "Auditmos agent skills",
+      "version": "1.0.0"
+    },
+    "plugins": [
+      {
+        "name": "smart-contract-security-skills",
+        "description": "Collection of smart contract security skills",
+        "source": "./",
+        "strict": false,
+        "skills": [
+          "./skills/audit-auction",
+          "./skills/audit-clm",
+          "./skills/audit-lending",
+          "./skills/audit-liquidation",
+          "./skills/audit-liquidation-calculation",
+          "./skills/audit-liquidation-dos",
+          "./skills/audit-math-precision",
+          "./skills/audit-oracle",
+          "./skills/audit-reentrancy",
+          "./skills/audit-signature",
+          "./skills/audit-slippage",
+          "./skills/audit-staking",
+          "./skills/audit-state-validation",
+          "./skills/audit-unfair-liquidation"
+        ]
+      }
+    ]
+  }

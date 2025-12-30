@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+        "Bash(mkdir)",
+        "Edit(/*/*.md)"
+    ]
+  }
+}
